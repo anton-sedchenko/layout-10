@@ -1,0 +1,87 @@
+@import 'matrix';
+
+.blog-page-body, 
+.blog-page-footer,
+.footer__content {
+  background-color: $postPageBg;
+}
+
+.section-blog__user-name {
+  font-family: $mainFontFam;
+  color: $mainTextColor;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.post-extra-info-container {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+  color: $postInfoColor;
+}
+
+.section-blog__movie-info {
+  @extend .post-extra-info-container;
+}
+
+.section-blog__post-heading {
+  font-family: $mainFontFam;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.post-extra-info-container {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+
+}
+
+.section-blog__post-text {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.section-blog__btn {
+  border: 1px solid $mainTextColor;
+}
+
+.section-blog__post-wrapper {
+  background-color: $postBgColor !important;
+}
+
+.blog-post-wide {
+  background-color: $postBgColor !important;
+}
+
+.expand-blog-btn {
+  background-color: $expandBlogBtnBg;
+}
+
+.footer__logo-container {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.section-blog__search-input {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.section-blog__search-input {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+  color: $mainTextColor;
+}
+
+.section-blog__search-btn img {
+  fill: $mainTextColor;
+}

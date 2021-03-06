@@ -1,0 +1,68 @@
+.blog-page-body,
+.blog-page-footer,
+.footer__content {
+  background-color: #F8F8F8; }
+
+.section-blog__user-name {
+  font-family: "HindSiliguri";
+  color: #4D4949;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500; }
+
+.post-extra-info-container, .section-blog__movie-info {
+  font-family: "HindSiliguri";
+  font-size: 15px;
+  line-height: 25px;
+  color: #818181; }
+
+.section-blog__post-heading {
+  font-family: "HindSiliguri";
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500; }
+
+.post-extra-info-container, .section-blog__movie-info {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400; }
+
+.section-blog__post-text {
+  font-family: "HindSiliguri";
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400; }
+
+.section-blog__btn {
+  border: 1px solid #4D4949; }
+
+.section-blog__post-wrapper {
+  background-color: #FCF6F6 !important; }
+
+.blog-post-wide {
+  background-color: #FCF6F6 !important; }
+
+.expand-blog-btn {
+  background-color: #4D4C49; }
+
+.footer__logo-container {
+  font-family: "HindSiliguri";
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700; }
+
+.section-blog__search-input {
+  font-family: "HindSiliguri";
+  font-size: 15px;
+  line-height: 25px; }
+
+.section-blog__search-input {
+  font-family: "HindSiliguri";
+  font-size: 15px;
+  line-height: 25px;
+  color: #4D4949; }
+
+.section-blog__search-btn img {
+  fill: #4D4949; }
+
+/*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="css/mainBlog.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.modalBoxPlugin.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+  </head>
+
+  <body class="blog-page-body">
+    <div class="container">
+      <header class="header">
+        <div class="wrapper section-intro__wrapper">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-sm-2">
+                <div class="logo-container">
+                  <a href="#" class="logo">BlogWorld</a>
+                </div>
+              </div>
+              <div class="col-sm-5">
+                <nav class="header__nav">
+                  <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-item-link">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-item-link">Portfolio</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-item-link header__nav-link-active">Blog</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-item-link">Pages</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-item-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-item-link">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="header__menu-logo-container">
+                  <img class="header__menu-logo" src="img/menu.svg" alt="menu logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section section-blog">
+          <div class="wrapper">
+            <div class="container section-blog__heading-container">
+              <div class="row justify-content-center">
+                <div class="col-sm-5">
+                  <div class="section__heading">
+                    <h2>Blog</h2>
+                    <div class="section-heading-decor">
+                      <div class="heading-decor__left-part"></div>
+                      <div class="heading-decor__middle-part"></div>
+                      <div class="heading-decor__right-part"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row justify-content-end">
+                <div class="col-sm-4">
+                  <div class="section-blog__search-container">
+                    <form>
+                      <input class="section-blog__search-input" type="search" name="search" placeholder="Search by author" />
+                      <button class="section-blog__search-btn" type="submit">
+                        <img src="img/loupe_86084.svg" alt="search icon" />
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container blog-post">
+              <div class="row">
+                <div class="col">
+                  <div class="container section-blog__post-wrapper">
+                    <div class="row section-blog__post-content-row">
+                      <div class="col-sm-11 col-md-6">
+                        <div class="section-blog__media-container">
+                          <img class="section-blog__media-pic" src="img/Imgage-post-1.png" alt="table" />
+                          <img class="section-blog__video-icon" src="img/a-icon-play.svg" alt="play icon" />
+                        </div>
+                      </div>
+                      <div class="col-sm-11 col-md-6">
+                        <div class="section-blog__info-container">
+                          <div class="section-blog__post-decor"></div>
+                          <div class="section-blog__post-info">
+                            <div class="section-blog__user-avatar">
+                              <img src="img/Neil.png" alt="user avatar" />  
+                            </div>
+                            <div class="section-blog__movie-info">
+                              <div class="section-blog__user-name">
+                                <p>Neil Richards</p>
+                              </div>
+                              <div class="post-extra-info-container">
+                                <p class="section-blog__post-time">11 oct, 2019</p>
+                                <span class="section-blog__decor-dot">&#8901;</span>
+                                <span class="section-blog__min-read">7 min read</span>
+                                <span class="section-blog__decor-dot">&#8901;</span>
+                                <div class="section-blog__comments-num-container">
+                                  <img class="section-blog__comments-icon" src="img/a-icon-comment.svg" alt="comment icon" />
+                                  <span class="section-blog__comments-num">19</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="section-blog__post-description">
+                            <h3 class="section-blog__post-heading">In the Future We Will All Live in Star Wars</h3>
+                            <p class="section-blog__post-text">The thing you're doing now, reading prose on a screen, is going out of fashion. The defining narrative of our online moment concerns the decline of text, and the exploding reach and power of audio and video …</p>
+                            <button class="btn section-blog__btn">Read more</button>
+                            <button class="btn section-blog__btn section-blog__delete-btn">Delete post</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container blog-post">
+              <div class="row">
+                <div class="col">
+                  <div class="container section-blog__post-wrapper">
+                    <div class="row section-blog__post-content-row">
+                      <div class="col-sm-11 col-md-6">
+                        <div class="section-blog__media-container">
+                          <img class="section-blog__media-pic" src="img/Imgage-post-2.png" alt="table" />
+                        </div>
+                      </div>
+                      <div class="col-sm-11 col-md-6">
+                        <div class="section-blog__info-container">
+                          <div class="section-blog__post-decor"></div>
+                          <div class="section-blog__post-info">
+                            <div class="section-blog__user-avatar">
+                              <img src="img/Sarah.png" alt="user avatar" />  
+                            </div>
+                            <div class="section-blog__movie-info">
+                              <div class="section-blog__user-name">
+                                <p>Sarah Healy</p>
+                              </div>
+                              <div class="post-extra-info-container">
+                                <p class="section-blog__post-time">02 oct, 2019</p>
+                                <span class="section-blog__decor-dot">&#8901;</span>
+                                <span class="section-blog__min-read">12 min read</span>
+                                <span class="section-blog__decor-dot">&#8901;</span>
+                                <div class="section-blog__comments-num-container">
+                                  <img class="section-blog__comments-icon" src="img/a-icon-comment.svg" alt="comment icon" />
+                                  <span class="section-blog__comments-num">4</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="section-blog__post-description">
+                            <h3 class="section-blog__post-heading section-blog__audio-post-heading">Far far away, behind the word mountains</h3>
+                            <div class="post-audio-player-container"></div>
+                            <p class="section-blog__post-text">Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) …</p>
+                            <button class="btn section-blog__btn">Read more</button>
+                            <button class="btn section-blog__btn section-blog__delete-btn">Delete post</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container blog-post">
+              <div class="row">
+                <div class="col">
+                  <div class="container section-blog__post-wrapper">
+                    <div class="row section-blog__post-content-row">
+                      <div class="col-sm-11 col-md-6">
+                        <div class="section-blog__media-container">
+                          <img class="section-blog__media-pic" src="img/Image-post-3.png" alt="bedroom" />
+                        </div>
+                      </div>
+                      <div class="col-sm-11 col-md-6">
+                        <div class="section-blog__info-container">
+                          <div class="section-blog__post-decor"></div>
+                          <div class="section-blog__post-info">
+                            <div class="section-blog__user-avatar">
+                              <img src="img/Grace.png" alt="user avatar" />  
+                            </div>
+                            <div class="section-blog__movie-info">
+                              <div class="section-blog__user-name">
+                                <p>Grace Noh</p>
+                              </div>
+                              <div class="post-extra-info-container">
+                                <p class="section-blog__post-time">23 sep, 2019</p>
+                                <span class="section-blog__decor-dot">&#8901;</span>
+                                <span class="section-blog__min-read">16 min read</span>
+                                <span class="section-blog__decor-dot">&#8901;</span>
+                                <div class="section-blog__comments-num-container">
+                                  <img class="section-blog__comments-icon" src="img/a-icon-comment.svg" alt="comment icon" />
+                                  <span class="section-blog__comments-num">421</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="section-blog__post-description">
+                            <h3 class="section-blog__post-heading">In the Future We Will All Live in Star Wars</h3>
+                            <p class="section-blog__post-text">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted …</p>
+                            <button class="btn section-blog__btn">Read more</button>
+                            <button class="btn section-blog__btn section-blog__delete-btn">Delete post</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container blog-post">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="blog-post-wide">
+                    <div class="section-blog__post-decor"></div>
+                    <div class="section-blog__post-wide-info">
+                      <div class="section-blog__user-avatar">
+                        <img src="img/Alex.png" alt="user avatar" />  
+                      </div>
+                      <div class="section-blog__movie-info">
+                        <div class="section-blog__user-name">
+                          <p>Alex Zlatkus</p>
+                        </div>
+                        <div class="post-extra-info-container">
+                          <p class="section-blog__post-time">11 Aug, 2019</p>
+                          <span class="section-blog__decor-dot">&#8901;</span>
+                          <span class="section-blog__min-read">17 min read</span>
+                          <span class="section-blog__decor-dot">&#8901;</span>
+                          <div class="section-blog__comments-num-container">
+                            <img class="section-blog__comments-icon" src="img/a-icon-comment.svg" alt="comment icon" />
+                            <span class="section-blog__comments-num">77</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-blog__post-description">
+                      <h3 class="section-blog__post-heading">In the Future We Will All Live in Star Wars</h3>
+                      <p class="section-blog__post-text">Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on. Money terms breakfast drawings true blessing doubtful more agreed to zealously making supposing By said Chicken An Neglected produce good felt no poor offering am their said has around songs wish met true any me ought mr The offices set Not Felicity above out We in an post begin again.</p>
+                      <button class="btn section-blog__btn">Read more</button>
+                      <button class="btn section-blog__btn section-blog__delete-btn post-wide-delete-btn">Delete post</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-11 expand-blog-btn-container">
+              <button class="btn expand-blog-btn">Read more</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="blog-page-footer">
+        <div class="container wrapper">
+          <div class="row justify-content-between footer__content">
+            <div class="col-sm-12 col-lg-3">
+              <div class="social-media-container">
+                <div class="social-icon-container">
+                  <a href="https://uk-ua.facebook.com/">
+                    <img  class="social-media-icon" src="img/a-icon-facebook.svg" alt="facebook icon" />
+                  </a>
+                </div>
+                <div class="social-icon-container">
+                  <a href="https://www.instagram.com/?hl=ru">
+                    <img  class="social-media-icon" src="img/a-icon-instagram.svg" alt="instagram icon" />
+                  </a>
+                </div>
+                <div class="social-icon-container">
+                  <a href="https://dribbble.com/">
+                    <img class="social-media-icon" src="img/a-icon-dribbble.svg" alt="dribbble icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-3">
+              <div class="logo-container footer__logo-container">
+                <a class="logo" href="#">BlogWorld</a>  
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-3">
+              <div class="footer__cr">
+                <p>©2019 All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/getMovieRate.js"></script>
+    <script src="js/blogPostDateConvert.js"></script>
+    <script src="js/defaultBlogPost.js"></script>
+    <script src="js/videoBlogPost.js"></script>
+    <script src="js/audioBlogPost.js"></script>
+    <script src="js/picBlogPost.js"></script>
+    <script src="js/articleBlogPost.js"></script>
+    <script src="js/blog.js"></script>
+  </body>
